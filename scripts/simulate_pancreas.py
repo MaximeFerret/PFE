@@ -55,6 +55,7 @@ src.direction.type = "momentum"
 src.direction.momentum = [0, 0, 1]   # tire vers le haut
 src.n = 1e5    # sinon Gate simulera 0 particules !
 
+
 # --------------------------------------------------
 # Dose Actor
 # --------------------------------------------------
@@ -65,7 +66,7 @@ dose.output_filename = "dose_output.mhd"   # nom du fichier dans output_dir
 dose.write_to_disk = True                 # obligatoire
 dose.size = ct_size
 dose.spacing = ct_spacing
-
+    
 
 # --------------------------------------------------
 # Run

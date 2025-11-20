@@ -14,4 +14,8 @@ pip install opengate
 opengate_info
 opengate_tests
 
-djzejinfzjnf
+python3 ./scripts/simulate_pancreas.py ./data/Pancreas_2mm_v2/PANCREAS_0001/
+
+python3 ./scripts/simulate_ct_batch.py ./data/Pancreas_2mm_v2/PANCREAS_0001/
+
+python3 ./scripts/combine_doses.py ./data/Pancreas_2mm_v2/PANCREAS_0001/ 90
